@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:layout_gravity="left"
-            android:gravity="left"
+            android:layout_marginLeft="10dip"
             facebook:preset_size="normal" />
     
     <TextView
@@ -41,9 +41,8 @@
 
      <ImageView
         android:id="@+id/iimb"
-        android:layout_width="210dip"
+        android:layout_width="200dip"
         android:layout_height="90dip"
-       
         android:layout_weight="1"
         android:src="@drawable/index" />
      
@@ -52,8 +51,9 @@
     <ImageView
         android:id="@+id/logo_app"
         android:layout_width="300dip"
-        android:layout_height="360dip"
+        android:layout_height="300dip"
         android:layout_gravity="center"
+        android:layout_marginTop="10dip"
         android:src="@drawable/tree" />
 
 
@@ -62,7 +62,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textSize="36sp"
+        android:textSize="40sp"
+        android:layout_marginTop="10dip"
         android:text="Geo Mapper"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -70,6 +71,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="An IIMB Initiative"
+        android:textSize="20sp"
         android:layout_gravity="center"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
@@ -78,14 +80,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Enter"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
         android:textColor="@android:color/white"
-        android:background="@android:color/holo_green_dark"
+        android:background="@drawable/backcolor"
         android:onClick="moveToActivity" />
     
     <com.facebook.widget.LoginButton
         android:id="@+id/authButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="10dip"
         android:layout_gravity="center_horizontal"
         />
     

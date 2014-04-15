@@ -3,19 +3,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/images"
-    android:alpha="0.75">"
+    >
+    	<ImageView
+        android:id="@+id/cameraView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="25dip"
+        android:src="@drawable/camera"
+        android:onClick="takePic"
+         />
+    	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to take a pic"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
     
-     <Button
-        android:id="@+id/sendBtn"
+
+     
+       <Button
+        android:id="@+id/imageViews"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:onClick="takePic"
+        android:onClick="viewImages"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
         android:textColor="@android:color/white"
-        android:background="@android:color/holo_green_dark"
- 		android:layout_marginTop="10dip"
-        android:text="Take a pic" />
+        android:background="@drawable/backcolor"
+ 		android:layout_marginTop="100dip"
+        android:text="View previously taken images" />
+     
+     
     
 
 </LinearLayout>

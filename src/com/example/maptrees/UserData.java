@@ -24,5 +24,10 @@ public class UserData extends Activity {
 		
 		
 	}
+	
+	public void viewImages(View view){
+		Intent intent = new Intent(this,ViewImages.class);
+		startActivity(intent);
+	}
 
 }	
