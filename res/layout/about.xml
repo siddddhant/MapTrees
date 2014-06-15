@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<TextView android:text="This App helps in mapping Trees to their Latitude and Longitude. Once an image is taken and sent to the database server,GIS mapping of that image takes place
+    on Google Maps. This helps in creating a central server database of trees in a campus,locality or city. User can share images clicked by him/her on facebook also and get details of 
+    activities of such post in the app itself. To use this app user must Log in via his/her Facebook Account. The App has been created under a research done at IIMM-B Bangalore"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dip"
+    android:paddingRight="15dip"
+    android:paddingTop="15dip"
+    android:paddingBottom="15dip"
+    android:textSize="20sp"/>
+</LinearLayout>
